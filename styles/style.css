@@ -345,10 +345,11 @@ li.advantages-item p {
   margin-top: 27px;
 }
 .form-action {
-  margin-top: 58px;
+  margin-top: 50px;
 }
 .form-action p {
   position: relative;
+  margin-bottom: -9px;
 }
 form p:last-of-type {
   margin-bottom: 0px;
@@ -356,17 +357,33 @@ form p:last-of-type {
 .text-input {
   display: block;
   background-color: transparent;
+  padding: 5px 0 5px 0;
   border: none;
   width: 100%;
   border-bottom: 1px #ffffff solid;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 49px;
 }
+.text-input::placeholder{
+  position: relative;
+  bottom: 5px;
+  color: #ffffff;
+}
+.submit-button.button {
+  margin-top: -10px;
+}
+
+/*
 .input-label {
   position: relative;
   bottom: 38px;
 }
-.submit-button {
-  margin-top: 0px;
+
+.text-input:focus+.input-label {
+  bottom: 62px;
 }
+*/
 .page-footer .wide-container {
   display: flex;
   align-items: center;
